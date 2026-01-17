@@ -4,7 +4,7 @@ const blogCards = [
   {
     img: 'https://res.cloudinary.com/dp8tkb7hq/image/upload/v1768625502/shipping_ugdqkr.png',
     alt: 'Modern house',
-    title: 'Crossroads shipping  brings packages to Africa and vice versa.',
+    title: 'Crossroads shipping forwards packages from the USA to Africa.',
     description:
       'This is the first mission of crossroads shipping, and you can do everything from the confort of your house, and we will dispatch our driver to finish the job.',
     blogLink: '#',
