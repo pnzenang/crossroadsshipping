@@ -1,9 +1,9 @@
 import { cn } from '@/lib/utils';
 import SectionTitle from '@/components/global/SectionTitle';
 
-type Feature102Props = {
+interface Feature102Props {
   className?: string;
-};
+}
 
 const HowItWorks = ({ className }: Feature102Props) => {
   return (
@@ -194,4 +194,4 @@ const HowItWorks = ({ className }: Feature102Props) => {
   );
 };
 
-export default HowItWorks;
+export default { HowItWorks };
