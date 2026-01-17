@@ -1,5 +1,6 @@
 import SectionTitle from '@/components/global/SectionTitle';
 import { Card, CardContent } from '@/components/ui/card';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Services = () => {
@@ -32,13 +33,13 @@ const Services = () => {
                   give you your package on the other side.
                 </p>
                 <p className='text-muted-foreground mb-4'>
-                  Click on this card and select products marked{' '}
-                  <span className='font-bold text-primary'>"Only by Sea"</span>{' '}
-                  to send the package by Sea Contasiner.
+                  Click on this card and select products marked
+                  <span className='font-bold text-primary'>Only by Sea</span> to
+                  send the package by Sea Contasiner.
                 </p>
                 <p className='font-semibold mb-4'>
                   Make sure not to mix both modes of shipping in one package,
-                  your package won't be shipped
+                  your package will not be shipped
                 </p>
               </Link>
             </CardContent>
@@ -61,13 +62,13 @@ const Services = () => {
                   other side.
                 </p>
                 <p className='text-muted-foreground mb-4'>
-                  Click on this card and select products marked{' '}
-                  <span className='font-bold text-primary'>"Only by Air"</span>{' '}
+                  Click on this card and select products marked
+                  <span className='font-bold text-primary'>Only by Air</span>
                   to send products by Air Express.
                 </p>
                 <p className='font-semibold mb-4'>
                   Make sure not to mix both modes of shipping in one package,
-                  your package won't be shipped
+                  your package will not be shipped
                 </p>
               </Link>
             </CardContent>

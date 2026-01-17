@@ -27,9 +27,10 @@ const HowItWorks = ({ className }: Feature102Props) => {
                   Check our Services
                 </h3>
                 <p className='text-sm text-muted-foreground min-[960px]:text-base'>
-                  Click on the button "Our Services" to see the differents
-                  services that we provide, and in whitch states we provide such
-                  services
+                  Click on the button
+                  <span className='font-bold text-primary'> Our Services </span>
+                  to see the differents services that we provide, and in whitch
+                  states we provide such services
                 </p>
               </div>
             </div>
@@ -140,9 +141,13 @@ const HowItWorks = ({ className }: Feature102Props) => {
 
                 <p className='text-sm text-muted-foreground min-[960px]:text-base'>
                   When you are satisfied with your shipping package and the
-                  price, click on "place order" to submit your package. But
-                  before, make sure that your package is made up of the same
-                  mode of shipping, eather "Only by air "
+                  price, click on
+                  <span className='font-bold text-primary'> place order </span>
+                  to submit your package. But before, make sure that your
+                  package is made up of the same mode of shipping, eather
+                  <span className='font-bold text-primary'> only by sea </span>
+                  or{' '}
+                  <span className='font-bold text-primary'> only by air </span>
                 </p>
               </div>
             </div>
