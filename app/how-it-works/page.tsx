@@ -1,13 +1,9 @@
 import { cn } from '@/lib/utils';
 import SectionTitle from '@/components/global/SectionTitle';
 
-interface Feature102Props {
-  className?: string;
-}
-
-const HowItWorks = ({ className }: Feature102Props) => {
+const HowItWorks = () => {
   return (
-    <section className={cn('py', className)}>
+    <section>
       <div className='container'>
         <div className='mx-auto flex max-w-3xl flex-col justify-center  md:text-center'>
           <SectionTitle text='How it works:' />
@@ -194,4 +190,4 @@ const HowItWorks = ({ className }: Feature102Props) => {
   );
 };
 
-export default { HowItWorks };
+export default HowItWorks;
