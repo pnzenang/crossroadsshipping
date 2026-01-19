@@ -34,8 +34,10 @@ const Services = () => {
                 </p>
                 <p className='text-muted-foreground mb-4'>
                   Click on this card and select products marked
-                  <span className='font-bold text-primary'>Only by Sea</span> to
-                  send the package by Sea Contasiner.
+                  <span className='font-bold text-primary px-1'>
+                    Only by Sea
+                  </span>
+                  to send the package by Sea Contasiner.
                 </p>
                 <p className='font-semibold mb-4'>
                   Make sure not to mix both modes of shipping in one package,
@@ -63,7 +65,9 @@ const Services = () => {
                 </p>
                 <p className='text-muted-foreground mb-4'>
                   Click on this card and select products marked
-                  <span className='font-bold text-primary'>Only by Air</span>
+                  <span className='font-bold text-primary px-1'>
+                    Only by Air
+                  </span>
                   to send products by Air Express.
                 </p>
                 <p className='font-semibold mb-4'>
