@@ -10,9 +10,9 @@ function Hero() {
           We are improving how groupage is done!
         </h1>
         <p className='mt-8 max-w-xl text-lg leading-8 text-muted-foreground'>
-          We have initiated the most particiative way of doing groupage, where
-          everybody can bring his or her little contribution and streamlining
-          the services to lower the cost to the customers.
+          We have initiated the most participative way of doing groupage, where
+          anybody can bring his or her little contribution and streamlining the
+          services to lower the cost to the customers.
         </p>
         <Button asChild size='lg' className='mt-10'>
           <Link href='/services'>Our Services</Link>
