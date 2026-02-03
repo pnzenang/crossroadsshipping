@@ -1,13 +1,13 @@
-import { formatCurrency } from '@/utils/format'
-import Image from 'next/image'
-import Link from 'next/link'
+import { formatCurrency } from '@/utils/format';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export const FirstColumn = ({
   name,
   image,
 }: {
-  image: string
-  name: string
+  image: string;
+  name: string;
 }) => {
   return (
     <div className='relative h-24 w-24 sm:h-32 sm:w-32'>
@@ -20,8 +20,8 @@ export const FirstColumn = ({
         className='w-full rounded-md object-contain'
       />
     </div>
-  )
-}
+  );
+};
 
 export const SecondColumn = ({
   name,
@@ -29,10 +29,10 @@ export const SecondColumn = ({
   productId,
   shippingMode,
 }: {
-  name: string
+  name: string;
   // company: string
-  productId: string
-  shippingMode: String
+  productId: string;
+  shippingMode: String;
 }) => {
   return (
     <div className='sm:w-48'>
@@ -44,9 +44,9 @@ export const SecondColumn = ({
         To be sent only by {shippingMode}.
       </h4>
     </div>
-  )
-}
+  );
+};
 
 export const FourthColumn = ({ price }: { price: number }) => {
-  return <p className='font-medium md:ml-auto'>{formatCurrency(price)}</p>
-}
+  return <p className='font-medium md:ml-auto'>{formatCurrency(price)}</p>;
+};
