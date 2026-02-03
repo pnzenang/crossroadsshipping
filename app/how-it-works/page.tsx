@@ -170,8 +170,12 @@ const HowItWorks = () => {
 
                 <p className='text-sm text-muted-foreground min-[960px]:text-base'>
                   From your shipments pages, select the package you are ready to
-                  ship, pay at least the pick up price of $25 by zelle or any
-                  other form of payment, with the reference code as memo,
+                  ship,
+                  <span className='font-bold text-primary'>
+                    {' '}
+                    pay at least the pick up price of $25 by zelle or any other
+                    form of payment, with the reference code as memo,
+                  </span>
                   accurately fill out the pickup date form with the shipment
                   reference code, name, phone number and choose the date of
                   pickup.

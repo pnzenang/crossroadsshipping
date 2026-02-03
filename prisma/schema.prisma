@@ -57,7 +57,7 @@ model Cart {
   pickupFee       Float      @default(0)
   minimumPickupFee Int @default(25)
   tax            Int      @default(0)
-  taxRate        Float    @default(0.1)
+  taxRate        Float    @default(0.06)
   pickupRate Float @default(0.25)
   orderTotal     Int      @default(0)
   createdAt      DateTime @default(now())
