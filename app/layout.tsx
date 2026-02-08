@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'crossroads shipping',
-  description: 'A nifty store built with Next.js',
+  description: 'A nifty way to ship your items to Africa',
 };
 
 export default function RootLayout({

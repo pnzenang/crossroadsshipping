@@ -15,16 +15,18 @@ import { pickupStates } from '@/utils/pickUpStates';
 import { Card } from '@/components/ui/card';
 
 const TableStyle = {
-  stateStyle: 'text-sm uppercase bg-primary py-4',
-  dayStyle: 'text-[15px]',
-  dayTitleStyle: 'text-secondary bg-primary text-sm',
+  stateStyle:
+    'text-[8px] uppercase bg-primary py-4 sm:text-sm pl-24 sm:pl-2 w-full ',
+  dayStyle: 'text-[6px] sm:text-[10px] px- sm:px-0 text-center',
+  dayTitleStyle:
+    'text-secondary bg-primary text-[8px] sm:text-sm  px-2 sm:px-5 w-44',
 };
 
 async function OrdersPage() {
   const orders = await fetchUserOrders();
 
   return (
-    <section className='pt-2 flex flex-col items-center '>
+    <section className='p-2 flex flex-col items-center '>
       <SectionTitle text='Your Shipments' />
 
       <Table className='mb-1'>
@@ -46,7 +48,7 @@ async function OrdersPage() {
             <TableHead className='text-primary'>Country </TableHead>
           </TableRow>
         </TableHeader>
-        <TableBody>
+        <TableBody className=''>
           {orders.map((order) => {
             const {
               products,
@@ -90,7 +92,7 @@ async function OrdersPage() {
       </Table>
 
       <div className=' grid gap-4 lg:grid-cols-12'>
-        <div className='lg:col-span-9 '>
+        <div className='lg:col-span-9 mx-auto '>
           <SectionTitle text='Pick Up time by State' />
           <div>
             <Table className='mb-10'>
@@ -120,10 +122,10 @@ async function OrdersPage() {
                   </TableHead>
                 </TableRow>
               </TableHeader>
-              <TableBody>
+              <TableBody className=''>
                 {pickupStates.map((item) => {
                   return (
-                    <TableRow key={item.stateName}>
+                    <TableRow key={item.stateName} className=''>
                       <TableCell className={TableStyle.stateStyle}>
                         {item.stateName}
                       </TableCell>
@@ -156,14 +158,14 @@ async function OrdersPage() {
           </div>
         </div>
 
-        <div className='lg:col-span-3 h-800 mt-44 '>
+        <div className='lg:col-span-3 h-800 mt-44 mx-auto  '>
           <iframe
             height={1075}
             id='JotFormIFrame-252665484672064'
             title='CHOOSE PICKUP DATE'
             allow='geolocation; microphone; camera; fullscreen; payment'
             src='https://form.jotform.com/252665484672064'
-            className=''
+            className='w-full '
           ></iframe>
         </div>
       </div>

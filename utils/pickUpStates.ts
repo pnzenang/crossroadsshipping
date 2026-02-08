@@ -10,9 +10,9 @@ type StatePickupAttribute = {
 };
 
 const slotNone = '';
-const slotHalfAM = '8:00 AM - 2:00 PM';
-const slotHalfPM = '2:00 PM - 8:00 PM';
-const slotFull = '8:00 AM - 8:00 PM';
+const slotHalfAM = '8:00 am - 2:00 pm';
+const slotHalfPM = '2:00 am - 8:00 pm';
+const slotFull = '8:00 am - 8:00 pm';
 
 export const pickupStates: StatePickupAttribute[] = [
   {

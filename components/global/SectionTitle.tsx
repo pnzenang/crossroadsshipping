@@ -15,7 +15,7 @@ function SectionTitle({
 }) {
   return (
     <div className='pt-32'>
-      <h2 className='text-2xl md:text-6xl font-bold tracking-wider capitalize mb-2'>
+      <h2 className='pl- text-xl md:text-6xl font-bold tracking-wider capitalize mb-2 text-center'>
         {text}
       </h2>
       <p className='text-muted-foreground'>{detail1}</p>
