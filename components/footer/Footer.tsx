@@ -21,7 +21,7 @@ const Footer = ({ className }: Footer24Props) => {
       <div className='container px-4 md:px-24'>
         <div className='rounded-t bg-primary p-8 md:p-8'>
           <div className='mb-2 border-b border-border pb-6 text-left md:mb-4 md:pb-8 md:text-center'>
-            <h1 className='text-2xl  font-bold tracking-tight sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'>
+            <h1 className='text-2xl  font-bold tracking-tight sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center'>
               {footerData.heading}
             </h1>
           </div>
