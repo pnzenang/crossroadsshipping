@@ -158,14 +158,14 @@ async function OrdersPage() {
           </div>
         </div>
 
-        <div className='lg:col-span-3 h-800 mt-44 mx-auto  '>
+        <div className='lg:col-span-3 h-900 mt-44 mx-auto  '>
           <iframe
-            height={1075}
+            height={1200}
             id='JotFormIFrame-252665484672064'
             title='CHOOSE PICKUP DATE'
             allow='geolocation; microphone; camera; fullscreen; payment'
             src='https://form.jotform.com/252665484672064'
-            className='w-full '
+            className='w-full'
           ></iframe>
         </div>
       </div>

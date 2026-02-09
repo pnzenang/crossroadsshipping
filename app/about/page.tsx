@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <div className=''>
       <BlogPage />
-      <Contact7 />
+      {/* <Contact7 /> */}
     </div>
   );
 };
