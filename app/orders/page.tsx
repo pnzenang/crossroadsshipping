@@ -16,10 +16,10 @@ import { Card } from '@/components/ui/card';
 
 const TableStyle = {
   stateStyle:
-    'text-[8px] uppercase bg-primary py-4 sm:text-sm pl-24 sm:pl-2 w-full ',
-  dayStyle: 'text-[6px] sm:text-[10px] px- sm:px-0 text-center',
+    'text-[10px] uppercase bg-primary py-4 sm:text-sm pl-16  pr-1 sm:pl-2 w-full ',
+  dayStyle: 'text-[8px] sm:text-[10px] px- sm:px-0 text-center',
   dayTitleStyle:
-    'text-secondary bg-primary text-[8px] sm:text-sm  px-2 sm:px-5 w-44',
+    'text-secondary bg-primary text-[8px] sm:text-sm  px-2 sm:px-5 ',
 };
 
 async function OrdersPage() {
