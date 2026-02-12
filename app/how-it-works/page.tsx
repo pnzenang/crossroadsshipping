@@ -8,7 +8,7 @@ const HowItWorks = () => {
         <SectionTitle text='How it works:' />
         <h2 className='text-xl '>Below is a workflow to ship with us:</h2>
       </div>
-      <div className='mx-auto mt-14 flex max-w-5xl flex-col gap-4 lg:px-2'>
+      <div className='mx-auto mt-8 flex max-w-5xl flex-col gap-4 lg:px-2'>
         <div className='flex flex-col items-center justify-between min-[960px]:flex-row min-[960px]:gap-10'>
           <div className='flex gap-4 min-[960px]:max-w-md'>
             <div className='flex flex-col items-center justify-between gap-1'>
