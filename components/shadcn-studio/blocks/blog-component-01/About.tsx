@@ -21,7 +21,7 @@ type BlogCard = {
 
 const Blog = ({ blogCards }: { blogCards: BlogCard }) => {
   return (
-    <section className='pt-8 sm:pt-16 lg:pt-24'>
+    <section className='pt-8 sm:pt-16 lg:pt-6'>
       <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
         {/* Header */}
         <div className='mb-12 space-y-4 text-center sm:mb-16 lg:mb-24'>
